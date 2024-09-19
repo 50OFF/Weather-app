@@ -1,0 +1,43 @@
+.current_weather {
+    height: 100vh;
+    width: 70vw;
+    display: flex;
+}
+
+.current_weather_data {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 40px;
+}
+
+.current_city_date {
+    justify-self: center;
+}
+
+.current_temperature {
+    font-size: 12em;
+    line-height: 0.82em;
+    align-self: flex-end;
+}
+
+.current_city {
+    font-size: 5em;
+}
+
+.current_date {
+    font-size: 1.5em;
+    margin-left: 8px;
+}
+
+.current_temp_phrase {
+    display: flex;
+}
+
+.current_phrase {
+    font-size: 4em;
+    max-width: 800px;
+    line-height: 1em;
+    align-self: flex-end;
+    margin-left: 20px;
+}

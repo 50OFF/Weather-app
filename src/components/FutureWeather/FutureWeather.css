@@ -1,0 +1,27 @@
+.future_weather {
+    width: 100%;
+}
+
+.future_day {
+    text-align: center;
+    margin-top: 15px
+}
+
+.date {
+    font-size: 1.5em;
+}
+
+.day_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.temperature {
+    font-size: 3em;
+}
+
+.description {
+    font-style: 2em;
+}

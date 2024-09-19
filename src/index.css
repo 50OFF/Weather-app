@@ -1,0 +1,29 @@
+* {
+  /* outline: 1px red solid; */
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: whitesmoke
+}
+
+body {
+  margin: 0;
+  display: flex;
+  background-image: url("assets/weather_bgs/fall.jpg");
+  background-size: cover;
+}
+
+#root {
+  display: flex;
+}
+
+.side_bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30vw;
+  padding-bottom: 40px;
+  background-color: rgba(255, 255, 255, 0.1); /* Полупрозрачный белый фон */
+  backdrop-filter: blur(10px); /* Размытие фона за элементом */
+}
