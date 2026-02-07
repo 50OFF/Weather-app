@@ -1,8 +1,22 @@
-# React + Vite
+# 🌤️ Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Weather App** — это мой первый законченный учебный проект на React. Приложение показывает текущую погоду и прогноз на 5 дней для выбранного города.
 
-Currently, two official plugins are available:
+## 🎯 Возможности
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* Просмотр текущей погоды: температура, описание, дата.
+* Прогноз на 5 дней с температурой и погодными условиями.
+* Поиск любого города через API AccuWeather.
+
+## 📷 Скриншоты
+
+![Weather App Screenshot 1](Screenshot1.png)
+![Weather App Screenshot 2](Screenshot2.png)
+
+## 🛠️ Технологии
+
+* React
+* Vite
+* JavaScript
+* CSS
+* HTML
